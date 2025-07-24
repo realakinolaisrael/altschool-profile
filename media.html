@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Me - Multimedia Page</title>
+  </head>
+  <body>
+    <h1>About Me – A Multimedia Introduction</h1>
+
+    <h2>Responsive Picture</h2>
+    <p>My journey captured in an image that adapts to your device:</p>
+
+    <picture>
+      <!--  <source media="(min-width: 1024px)" srcset="images/desktop.jpg" />
+      <source media="(min-width: 768px)" srcset="images/tablet.jpg" />
+      <source media="(max-width: 767px)" srcset="images/mobile.jpg" /> -->
+
+      <img
+        src="images/IMG-20240727-WA0009.jpg"
+        alt="A visual representation of my tech journey"
+      />
+    </picture>
+
+    <h2>Audio Message</h2>
+    <p>Listen to a short intro about my motivation:</p>
+    <audio controls>
+      <source
+        src="media/Eric Lund - Everyday (freetouse.com).mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>Intro Video</h2>
+    <p>Watch a video that tells my story:</p>
+    <video width="320" height="240" controls>
+      <source src="media/WIN_20250724_19_15_19_Pro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Downloadable Resume</h2>
+    <p>You can download my resume here:</p>
+    <a href="media/resume.pdf" download>Download Resume (PDF)</a>
+
+    <p><a href="index.html">Back to Profile</a></p>
+  </body>
+</html>
